@@ -1,9 +1,0 @@
-com\pca\in\config\WebConfig.class
-com\pca\in\entity\PcaInfo.class
-com\pca\in\service\PcaService.class
-com\pca\in\controller\PcaController.class
-com\pca\in\repository\PcaRepository.class
-com\pca\in\ServletInitializer.class
-com\pca\in\service\PcaServiceImpl.class
-com\pca\in\ProductCatalogApplication.class
-com\pca\in\entity\PCA.class
