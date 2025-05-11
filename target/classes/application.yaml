@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: Product_Catalog_Application
+
+  mvc:
+    view:
+      prefix: "/WEB-INF/views/"
+      suffix: ".jsp"
+
+server:
+  port: 5000	
+
+---
+spring:
+  profiles:
+    default: dev
+  datasource:
+    url: jdbc:sqlserver://spring-app.database.windows.net:1433;database=pcadb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: springboot
+    password: pass@123
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
